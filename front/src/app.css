@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+p {
+    font-family: "Inter", courier-new;
+    color: #D74C26;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bottom-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.special-link {
+    color: #3356fa;
+    text-decoration: none;
+}
+
+.special-link:hover {
+    color: #4CAF50;
+}
+
+.page-container {
+    background-color: #CECECE; /* Change to your desired color */
+    min-height: 100vh; /* Ensure the background covers the full viewport */
+    color: white;
+}
+
+h1 {
+    font-size: clamp(16px, 5vw, 48px);
+    text-align: center;
+    color: #D74C26;
+}
