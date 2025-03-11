@@ -3,7 +3,7 @@
 
 <p>USING GITHUB README AS A FILE TRANSFER FROM WORK COMPUTER:</p>
 <code>
-  <script>
+<script>
   let showOverlay = false;
 </script>
 

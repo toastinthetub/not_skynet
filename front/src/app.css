@@ -1,40 +1,39 @@
 @import 'tailwindcss';
 
-p {
-    font-family: "Inter", courier-new;
-    color: #D74C26;
-    font-size: 18px;
-    text-align: center;
+/* PAGE CONTAINER FOR EACH +page.svelte */
+page-container {
+    font-family: monospace; 
 }
 
-.bottom-fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vw;
+    background: #C5C392;
 }
-
-.special-link {
-    color: #3356fa;
-    text-decoration: none;
-}
-
-.special-link:hover {
-    color: #4CAF50;
-}
-
-.page-container {
-    background-color: #CECECE; /* Change to your desired color */
-    min-height: 100vh; /* Ensure the background covers the full viewport */
-    color: white;
-}
-
-h1 {
-    font-size: clamp(16px, 5vw, 48px);
-    text-align: center;
-    color: #D74C26;
+  
+.big-bang-text {
+    position: absolute;
+    top: 25%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 12em;
+    font-weight: 700;
+    color: #F4A698;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
 }
