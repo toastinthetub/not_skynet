@@ -47,9 +47,9 @@
     }
     .divider {
         width: 75%;
-        height: 2px; /* Line thickness */
-        background-color: black; /* Line color */
-        margin-top: 20px; /* Moves the line up, adjust as needed */
+        height: 2px;
+        background-color: black;
+        margin-top: 20px;
     }
     .centered {
         display: flex;

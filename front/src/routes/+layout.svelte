@@ -6,15 +6,18 @@
   <nav class="navbar">
     <a href="/">
       <div class="logo text-white text-xl font-bold hover:text-blue-500">
-        <img class="svg-icon" src="https://www.svgrepo.com/show/535439/home-1.svg" alt="logo" />
+        <img class="svg-icon" src="/src/assets/svg/symbols/home-symbol-black-256px.svg" alt="logo" />
       </div>
     </a>
     <a href="https://github.com/toastinthetub">
       <div class="logo text-white text-xl font-bold hover:text-blue-500">
-        <img class="svg-icon" src="https://www.svgrepo.com/show/512317/github-142.svg" alt="logo" />
+        <img class="svg-icon" src="src/assets/svg/symbols/github-black-256px.svg" alt="logo" />
       </div>
     </a>
-  </nav>4
+  </nav>
+<footer style="position: fixed; bottom: 0; width: 100%; background: black; padding: 10px 0; text-align: center;">
+  <a href="/" style="color: white; text-decoration: none; font-weight: bold; color: #EB5E28">HOME</a>
+</footer>
   
   <slot></slot>
   
