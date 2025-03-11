@@ -4,24 +4,26 @@
   
   <!-- transparent navbar -->
   <nav class="navbar">
-    <div class="logo text-white text-xl font-bold hover:text-yellow-400">
-      6XH
-    </div>
-  
-    <button
-      class="menu-btn"
-      on:click="{() => console.log('Menu clicked')}"
-      aria-label="Toggle menu"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M3 12h18M3 6h18M3 18h18"/>
-      </svg>
-    </button>
-  </nav>
+    <a href="/">
+      <div class="logo text-white text-xl font-bold hover:text-blue-500">
+        <img class="svg-icon" src="https://www.svgrepo.com/show/535439/home-1.svg" alt="logo" />
+      </div>
+    </a>
+    <a href="https://github.com/toastinthetub">
+      <div class="logo text-white text-xl font-bold hover:text-blue-500">
+        <img class="svg-icon" src="https://www.svgrepo.com/show/512317/github-142.svg" alt="logo" />
+      </div>
+    </a>
+  </nav>4
   
   <slot></slot>
   
   <style>
+
+    .svg-icon {
+      width: 32px;
+      height: 32px;
+    }
 
     .logo:hover {
       text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
@@ -36,7 +38,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: rgba(0, 0, 0, 0.4); 
+      background-color: #ccc5b9;
       backdrop-filter: blur(10px); 
       z-index: 10; 
     }
@@ -49,7 +51,7 @@
       border: none; 
     }
   
-    .menu-btn svg {
+    .menu-btn img {
       fill: white; 
     }
   </style>

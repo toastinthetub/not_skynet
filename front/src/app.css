@@ -9,19 +9,31 @@ body {
     margin: 0;
     padding: 0;
     height: 100vw;
-    background: #C5C392;
+    background: #fffcf2;
+}
+
+.special-link {
+    color: blue;
+}
+
+.special-link:hover {
+    color: orangered;
+}
+
+.central-text-container {
+    position: absolute;
 }
   
 .big-bang-text {
     position: absolute;
-    top: 25%; 
+    top: 25%;
     right: 50%;
     transform: translate(50%,-50%);
     text-transform: uppercase;
     font-family: verdana;
     font-size: 12em;
     font-weight: 700;
-    color: #F4A698;
+    color: #403d39;
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
