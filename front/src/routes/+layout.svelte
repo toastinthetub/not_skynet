@@ -5,12 +5,12 @@
   <!-- transparent navbar -->
   <nav class="navbar">
     <a href="/">
-      <div class="logo text-white text-xl font-bold hover:text-blue-500">
+      <div class="logo text-white text-xl font-bold hover:text-blue-500 menu-btn">
         <img class="svg-icon" src="/src/assets/svg/symbols/home-symbol-black-256px.svg" alt="logo" />
       </div>
     </a>
     <a href="https://github.com/toastinthetub">
-      <div class="logo text-white text-xl font-bold hover:text-blue-500">
+      <div class="logo text-white text-xl font-bold hover:text-blue-500 menu-btn">
         <img class="svg-icon" src="src/assets/svg/symbols/github-black-256px.svg" alt="logo" />
       </div>
     </a>
@@ -47,10 +47,11 @@
     }
   
     .menu-btn {
-      width: 30px;
-      height: 30px;
+      width: 36px;
+      height: 36px;
       cursor: pointer;
-      background: none; 
+      background: whitesmoke;
+      border-radius: 100%;
       border: none; 
     }
   
